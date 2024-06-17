@@ -1,6 +1,6 @@
 # What is Brage?
 
-Stands for [Brage Revolutionary Architecture Generation Engine](https://bragetools.com), a set of tools designed for creating fast and reliable REST APIs.
+Stands for [Backend Revolutionary Architecture Generation Engine](https://bragetools.com), a set of tools designed for creating fast and reliable REST APIs.
 
 It reads your Database tables and queries and automatically generates all the models, validations, controllers and routers needed to handle those queries on a complete API.
 
