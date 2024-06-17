@@ -1,0 +1,21 @@
+{
+  "name": "brage-docs",
+  "version": "0.0.0",
+  "description": "Brage tools documentation",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "brage",
+    "node",
+    "sql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  }
+}
