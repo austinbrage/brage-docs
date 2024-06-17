@@ -3,8 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "BrageTools",
   description: "Bragetools docs site",
+  head: [
+    ['link', { rel: "icon", type: "svg", sizes: "32x32", href: "./../assets/logo-head.svg"}],
+  ],
 
   themeConfig: {
+    logo: { src: './../assets/logo.svg', width: 24, height: 24 },
+
     nav: nav(),
 
     sidebar: {
@@ -13,7 +18,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/austinbrage' }
-    ]
+    ],
+
+    footer: {
+      message: 'Released under a Personal use License.',
+      copyright: 'Copyright © 2024-present Austin Brage'
+    },
   }
 })
 

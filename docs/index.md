@@ -15,6 +15,10 @@ hero:
     - theme: alt
       text: Get it now
       link: https://bragetools.com
+  image:
+    src: /assets/logo.svg
+    alt: BrageTools
+
 
 features:
   - icon: 📝
