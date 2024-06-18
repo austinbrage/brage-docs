@@ -16,7 +16,7 @@ hero:
       text: Get it now
       link: https://bragetools.com
   image:
-    src: /assets/logo.svg
+    src: /logo.svg
     alt: BrageTools
 
 

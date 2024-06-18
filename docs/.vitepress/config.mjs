@@ -4,11 +4,11 @@ export default defineConfig({
   title: "BrageTools",
   description: "Bragetools docs site",
   head: [
-    ['link', { rel: "icon", type: "svg", sizes: "32x32", href: "./../assets/logo-head.svg"}],
+    ['link', { rel: "icon", type: 'image/svg+xml', href: "/logoHead.svg"}],
   ],
 
   themeConfig: {
-    logo: { src: './../assets/logo.svg', width: 24, height: 24 },
+    logo: { src: '/logo.svg', width: 24, height: 24 },
 
     nav: nav(),
 
