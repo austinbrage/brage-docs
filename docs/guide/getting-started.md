@@ -2,7 +2,7 @@
 
 ## Go and get it
 
-First get the package on this landing page [Bragetools](https://bragetools.com).
+First get the package on this landing page [Bragetools](https://brage.pages.dev).
 
 ## Installation
 
@@ -10,7 +10,7 @@ First get the package on this landing page [Bragetools](https://bragetools.com).
 
 - [Node.js](https://nodejs.org/) version 18 or higher.
 - [Pnpm](https://pnpm.io/installation) package install locally.
-- [Brage](https://bragetools.com) already bought.
+- [Brage](https://brage.pages.dev) already bought.
 
 Once you have purchased the package, unzip the .zip file and as described in the README, execute the following commands in the package folder to install the package locally.
 
