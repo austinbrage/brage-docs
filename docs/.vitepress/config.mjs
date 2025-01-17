@@ -1,14 +1,15 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  lang: 'en-US',
   title: "BrageTools",
-  description: "Bragetools docs site",
+  description: "Official documentation for Bragetools software.",
   head: [
-    ['link', { rel: "icon", type: 'image/svg+xml', href: "/logoHead.svg"}],
+    ['link', { rel: "icon", type: 'image/png', href: "/brain-gear.png"}],
   ],
 
   themeConfig: {
-    logo: { src: '/logo.svg', width: 24, height: 24 },
+    logo: { src: '/brain-gear.png', width: 24, height: 24 },
 
     nav: nav(),
 

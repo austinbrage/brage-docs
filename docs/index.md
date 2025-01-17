@@ -16,7 +16,7 @@ hero:
       text: Get it now
       link: https://brage.pages.dev
   image:
-    src: /logo.svg
+    src: /brain-gear.png
     alt: BrageTools
 
 
