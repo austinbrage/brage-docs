@@ -2,7 +2,7 @@
 
 ## Description
 
-The brage command is reads the folders and .sql files on the app folder and then creates the routes on the server folder. Logging info, warnings and errors along the way.
+The brage command reads the folders and .sql files on the app folder and then creates the routes on the server folder. Logging info, warnings and errors along the way.
 
 ***Without any options the command will watch any changes made on the app folder.***
 
@@ -35,19 +35,6 @@ Similar to do `brage-js -d -e test` runs the DB generator at running the mysql c
 ```sh
 $ brage-js --dbcreate --env test
 ```
-
-<!-- ## Options
-
-```sh
-$ brage-js [options]
-
-  options
-    --once              -o  Run the command only once without watchmode
-    --check             -c  Check the SQL syntax on files of the app folder
-    --showexpected      -s  Show expected syntax on founded error on --check
-    --dbcreate          -d  Recreates the databases with tables on the app folder
-    --env               -e  Especifies one environment on --dbcreate
-``` -->
 
 ## App directory
 
@@ -91,7 +78,8 @@ Only the routes on the main app folder are available. No NESTED ROUTES are allow
 Each folder on the app directory has to have a ***table.sql*** that will generate the validations.
 
 ::: warning
-The table SQL command must be written for MySQL, with each field name between `backticks`
+The table SQL code must be written for MySQL, with each field name between `backticks`
+
 The order of each field definition must be as follows | `TYPE` | `NULLABLE` | `DEFAULT VALUE` |
 :::
 
@@ -110,7 +98,7 @@ CREATE TABLE `clients` (
 );
 ```
 
-### App Tables
+### App Queries
 
 Each folder on the app directory has to have a ***queries.sql*** that will generate the endpoints.
 

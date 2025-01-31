@@ -41,7 +41,7 @@ Each query on the **queries.sql** can have an endpoint metadata after the patter
 > ***server / routes / clients / clients.router.js***
 
 :::info
-Note that the queries without the `-- ! endpoint` metadata will have the name of the query (main comment) as the endpoint path.
+Note that the queries without the `-- ! endpoint` metadata will have the name of the query ( main comment ) as the endpoint path.
 :::
 
 ```js

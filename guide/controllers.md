@@ -16,7 +16,7 @@ Each query on the **queries.sql** can have a message metadata after the pattern 
 
 ```sql 
 -- getAll
--- ! message: all data from clients requested
+-- ! message: all data from client requested
     SELECT * FROM `clients`
     WHERE `id` = ?;
 
@@ -69,7 +69,7 @@ class ClientsController {
         const data = await this.clientsModel.getAll(validation.data);
 
         return res.status(200).json(createOkResponse({
-            message: 'all data from clients requested',
+            message: 'all data from client requested',
             data
         }));
     })
