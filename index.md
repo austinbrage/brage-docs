@@ -13,7 +13,7 @@ hero:
       text: Get Started
       link: /guide/getting-started
     - theme: alt
-      text: Get it now
+      text: Get it NOW
       link: https://brage.pages.dev
   image:
     src: /brain-gear.png
