@@ -14,7 +14,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: Get it NOW
-      link: https://brage.pages.dev
+      link: https://brage.app
   image:
     src: /brain-gear.png
     alt: BrageTools

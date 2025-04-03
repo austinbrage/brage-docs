@@ -1,6 +1,6 @@
 # ¿Qué es Brage?
 
-Dado por las siglas de [Backend Revolutionary Architecture Generation Engine](https://brage.pages.dev) o ***Motor de Generación de Arquitectura Revolucionaria Backend***, es un conjunto de herramientas diseñadas para crear API REST rápidas y confiables.
+Dado por las siglas de [Backend Revolutionary Architecture Generation Engine](https://brage.app) o ***Motor de Generación de Arquitectura Revolucionaria Backend***, es un conjunto de herramientas diseñadas para crear API REST rápidas y confiables.
 
 Lee las tablas y consultas de tu base de datos y genera automáticamente todos los modelos, validaciones, controladores y enrutadores necesarios para manejar esas consultas en una API completa.
 
