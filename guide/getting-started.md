@@ -1,35 +1,46 @@
 # Getting Started
 
-## Go and get it
+The core of the project is OPEN SOURCE and is available publicly via NPM.
 
-First get the package on this landing page [Bragetools](https://brage.pages.dev).
+> For more advanced features check the premium versions of the pkg on
+> [Brage Products](https://brage.app)
 
 ## Installation
 
 #### Prerequisites
 
 - [Node.js](https://nodejs.org/) version 18 or higher.
-- [Pnpm](https://pnpm.io/installation) package install locally.
-- [Brage](https://brage.pages.dev) already bought.
 
-Once you have purchased the package, unzip the .zip file and as described in the README, execute the following commands in the package folder to install the package locally.
+For a more convenient use it is recommended to install the packages globally
 
-```sh
-$ pnpm install
+::: code-group
+
+```bash [npm]
+$ npm i -g create-brage brage-js
 ```
 
-```sh
-$ pnpm start
+```bash [Yarn]
+$ yarn global add create-brage brage-js
 ```
 
-The **START command** will install locally on your machine 2 commands, one to create an api project and another to create the api routes. ***Verify them with these commands***.
-
-```sh
-$ create-brage-js -v
+```bash [pnpm]
+$ pnpm add -g create-brage brage-js
 ```
 
-```sh
-$ brage-js -v
+```bash [Bun]
+$ bun add -g create-brage brage-js
+```
+
+::: 
+
+This will install locally on your machine 2 commands, one to create an api project and another to create the api routes. ***Verify them with these commands***.
+
+```bash
+$ create-brage -v
+```
+
+```bash
+$ brage -v
 ```
 
 ## Template creation
@@ -40,8 +51,8 @@ BRAGE works in a similar way to ***VITE***, with a command to create the conditi
 Choose a directory where you want to create your API project and run the following command.
 :::
 
-```sh
-$ create-brage-js
+```bash
+$ create-brage
 ```
 
 ## Routes Generation
@@ -53,6 +64,6 @@ On the directory where the template was created run this command to generate the
 :::
 
 
-```sh
-$ brage-js
+```bash
+$ brage
 ```

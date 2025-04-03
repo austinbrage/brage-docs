@@ -7,7 +7,7 @@ El comando `create-brage` genera un template de proyecto de API completo en una 
 ***Está fuertemente basado en la funcionalidad y apariencia del comando create-vite.***  
 
 ```sh
-$ create-brage-js
+$ create-brage
 ```
 
 ## Estructura

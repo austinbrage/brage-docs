@@ -7,7 +7,7 @@ The create-brage command scafolds a complete API project template on a folder wi
 ***This is strongly based on the create-vite command functionality and appearence.***
 
 ```sh
-$ create-brage-js
+$ create-brage
 ```
 
 ## Structure

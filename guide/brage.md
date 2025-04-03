@@ -7,38 +7,42 @@ The brage command reads the folders and .sql files on the app folder and then cr
 ***Without any options the command will watch any changes made on the app folder.***
 
 ```sh
-$ brage-js
+$ brage
 ```
 
 ## Options
 
 The complete version of the software includes a set of options on the brage command.
 
-| Options                  | Shortcuts           |                                                                                               |
-| ------------------------ | ------------------- | --------------------------------------------------------------------------------------------- |
-| `--once`                 | `-o`                | Run the command only once without watchmode                                                   |
-| `--check`                | `-c`                | Check the SQL syntax on files of the app folder                                               |
-| `--showexpected`         | `-s`                | Show expected syntax on founded error on --check                                              |
-| `--dbcreate`             | `-d`                | Recreates the databases with tables on the app folder                                         |
-| `--env`                  | `-e`                | Especifies one environment on --dbcreate (`string`)                                           |
+:::warning
+So far only the --once option is available on the free version of the package
+:::
+
+| Options                  | Shortcuts           |                                                       |
+| ------------------------ | ------------------- | ----------------------------------------------------- |
+| `--once`                 | `-o`                | Run the command only once without watchmode           |
+| `--check`                | `-c`                | Check the SQL syntax on files of the app folder       |
+| `--showexpected`         | `-s`                | Show expected syntax on founded error on --check      |
+| `--dbcreate`             | `-d`                | Recreates the databases with tables on the app folder |
+| `--env`                  | `-e`                | Especifies one environment on --dbcreate (`string`)   |
 
 #### Examples
 
-Similar to do `brage-js -c -s` runs the SQL safer functionality at checking the right syntax in all the .sql files on the app folder. The -s flag shows the expected sql on the files.
+Similar to do `brage -c -s` runs the SQL safer functionality at checking the right syntax in all the .sql files on the app folder. The -s flag shows the expected sql on the files.
 
 ```sh
-$ brage-js --check --showexpected
+$ brage --check --showexpected
 ```
 
-Similar to do `brage-js -d -e test` runs the DB generator at running the mysql command with the tables on the app folder. The -e flag accepts the values of `dev | test | prod`.
+Similar to do `brage -d -e test` runs the DB generator at running the mysql command with the tables on the app folder. The -e flag accepts the values of `dev | test | prod`.
 
 ```sh
-$ brage-js --dbcreate --env test
+$ brage --dbcreate --env test
 ```
 
 ## App directory
 
-The `brage-js` command works directly with the **APP** folder.
+The `brage` command works directly with the **APP** folder.
 
 ### App Routes
 

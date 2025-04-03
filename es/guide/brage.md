@@ -7,38 +7,42 @@ El comando brage lee las carpetas y archivos .sql en la carpeta app, para luego 
 ***Sin ninguna opción el comando observará cualquier cambio en la carpeta app.***
 
 ```sh
-$ brage-js
+$ brage
 ```
 
 ## Opciones
 
 La versión completa del software incluye un conjunto de opciones para el comando brage.
 
-| Opciones                 | Atajos              |                                                                                               |
-| ------------------------ | ------------------- | --------------------------------------------------------------------------------------------- |
-| `--once`                 | `-o`                | Ejecuta el comando una vez son el "watchmode"                                                 |
-| `--check`                | `-c`                | Chequea la sintaxis SQL en los archivos de la carpeta app                                     |
-| `--showexpected`         | `-s`                | Muestra la sintaxis esperada en los errores dados por --check                                 |
-| `--dbcreate`             | `-d`                | Recrea las bases de datos con las tablas de la carpeta app                                    |
-| `--env`                  | `-e`                | Especifica el entorno para la opción en --dbcreate (`string`)                                 |
+:::warning ADVERTENCIA
+Hasta ahora solo la opción --once está disponible en la versión gratuita del paquete
+:::
+
+| Opciones                 | Atajos              |                                                               |
+| ------------------------ | ------------------- | ------------------------------------------------------------- |
+| `--once`                 | `-o`                | Ejecuta el comando una vez son el "watchmode"                 |
+| `--check`                | `-c`                | Chequea la sintaxis SQL en los archivos de la carpeta app     |
+| `--showexpected`         | `-s`                | Muestra la sintaxis esperada en los errores dados por --check |
+| `--dbcreate`             | `-d`                | Recrea las bases de datos con las tablas de la carpeta app    |
+| `--env`                  | `-e`                | Especifica el entorno para la opción en --dbcreate (`string`) |
 
 #### Ejemplos
 
-Similar a hacer `brage-js -c -s` ejecuta la funcionalidad SQL para corroborar la sintaxis correcta en todos los archivos .sql de la carpeta app. La opción -s mustra el sql esperado.
+Similar a hacer `brage -c -s` ejecuta la funcionalidad SQL para corroborar la sintaxis correcta en todos los archivos .sql de la carpeta app. La opción -s mustra el sql esperado.
 
 ```sh
-$ brage-js --check --showexpected
+$ brage --check --showexpected
 ```
 
-Similar a hacer `brage-js -d -e test` ejecuta el generador de la DB con el comando mysql usando las tablas de la carpeta app. La opción -e acepta valores de `dev | test | prod`.
+Similar a hacer `brage -d -e test` ejecuta el generador de la DB con el comando mysql usando las tablas de la carpeta app. La opción -e acepta valores de `dev | test | prod`.
 
 ```sh
-$ brage-js --dbcreate --env test
+$ brage --dbcreate --env test
 ```
 
 ## Directorio App
 
-El comando `brage-js` trabaja directamente con la carpeta **APP**.
+El comando `brage` trabaja directamente con la carpeta **APP**.
 
 ### Rutas en App
 

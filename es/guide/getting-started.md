@@ -1,35 +1,46 @@
 # Inicio Rápido
 
-## Andá y conseguilo
+El núcleo del proyecto es de CÓDIGO ABIERTO y está disponible públicamente en NPM.
 
-Primero, conseguí el paquete en la página [Bragetools](https://brage.pages.dev).
+> Para características avanzadas, chequea las versiones premium en
+> [Productos Brage](https://brage.app)
 
 ## Instalación
 
 #### Requisitos previos
 
-- [Node.js](https://nodejs.org/) versión 18 o superior.  
-- [Pnpm](https://pnpm.io/installation) instalado localmente.  
-- [Brage](https://brage.pages.dev) ya comprado.  
+- [Node.js](https://nodejs.org/) versión 18 o superior.
 
-Una vez adquirido el paquete, descomprimí el archivo `.zip` y, indica el README, ejecutá los siguientes comandos en la carpeta del paquete para instalarlo localmente.  
+Para un uso más conveniente, es recomendable instalar los paquetes globalmente
+
+::: code-group
+
+```bash [npm]
+$ npm i -g create-brage brage-js
+```
+
+```bash [Yarn]
+$ yarn global add create-brage brage-js
+```
+
+```bash [pnpm]
+$ pnpm add -g create-brage brage-js
+```
+
+```bash [Bun]
+$ bun add -g create-brage brage-js
+```
+
+::: 
+
+Esto instalará localmente en tu computadora 2 comandos: uno para crear un proyecto de API y el otro para generar las rutas de la API. ***Verificalos con estos comandos***.
 
 ```sh
-$ pnpm install
+$ create-brage -v
 ```
 
 ```sh
-$ pnpm start
-```
-
-El **Comando START** instalará localmente en tu computadora 2 comandos: uno para crear un proyecto de API y el otro para generar las rutas de la API. ***Verificalos con estos comandos***.
-
-```sh
-$ create-brage-js -v
-```
-
-```sh
-$ brage-js -v
+$ brage -v
 ```
 
 ## Creación de Templates 
@@ -41,7 +52,7 @@ Elegí un directorio donde querés crear tu proyecto de API y ejecutá el siguie
 :::
 
 ```sh
-$ create-brage-js
+$ create-brage
 ```
 
 ## Generación de Rutas
@@ -54,5 +65,5 @@ En el directorio donde creaste el template, ejecutá este comando para generar l
 
 
 ```sh
-$ brage-js
+$ brage
 ```
