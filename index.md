@@ -1,4 +1,6 @@
 ---
+title: Documentation
+
 layout: home
 
 hero:
