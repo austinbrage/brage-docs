@@ -48,3 +48,9 @@ Es un paquete desarrollado en NodeJS instalable con pnpm, que actualmente trabaj
 
 ***Actualmente solo funciona con `BASES DE DATOS MYSQL`, por lo que solo lee e interpreta el lenguaje SQL diseñado para estas bases de datos.***
 :::
+
+<div class="info custom-block" style="padding-top: 8px">
+
+Para más información chequeá este [Video de vista general](https://www.youtube.com/watch?v=Hmnm-Mhw134).
+
+</div>

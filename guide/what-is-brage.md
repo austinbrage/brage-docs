@@ -49,3 +49,9 @@ It is a package made in NodeJS installable with pnpm, which currently works on t
 
 ***Currently it only works with `MYSQL DATABASES`, therefore it only reads and interprets SQL language made for these databases.***
 :::
+
+<div class="info custom-block" style="padding-top: 8px">
+
+For more information check this [Video overview](https://www.youtube.com/watch?v=Hmnm-Mhw134).
+
+</div>
