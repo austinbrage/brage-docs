@@ -20,6 +20,7 @@ export const es = defineConfig({
         },
     
         socialLinks: [
+            { icon: 'discord', link: 'https://discord.gg/4bRR5BpS' },
             { icon: 'github', link: 'https://github.com/austinbrage/brage' }
         ],
     
